@@ -1,60 +1,84 @@
-🎵 Análise Gráfica de uma Playlist com 50.000+ Músicas
-Este projeto realiza uma análise exploratória de uma playlist massiva contendo mais de 50.000 músicas, utilizando gráficos para identificar padrões, tendências e distribuições em diversos aspectos do dataset, como gêneros musicais, artistas mais presentes, idiomas, durações das faixas, entre outros.
+# 🎧 Análise Gráfica de uma Playlist com 50.000+ Músicas
 
-📁 Dataset
-Fonte: dataset.csv
+Este projeto realiza uma análise exploratória de uma playlist com mais de **50.000 músicas**, utilizando gráficos para identificar **padrões**, **tendências** e **distribuições** em diversos aspectos do dataset, como artistas, gêneros musicais, idiomas, duração das faixas, entre outros.
 
-Contém informações como:
+---
 
-Nome do artista
+## 📁 Dataset
 
-Gênero musical
+- Arquivo: `dataset.csv`
+- Principais colunas analisadas:
+  - `artist` – Artista
+  - `genre` – Gênero musical
+  - `duration` – Duração da música (em segundos)
+  - `release_date` – Data de lançamento
+  - `language` – Idioma da música
+  - `label` – Produtora
 
-Duração
+---
 
-Data de lançamento
+## 🛠️ Tecnologias Utilizadas
 
-Idioma
+- **Python 3.x**
+- **Pandas** – Manipulação de dados
+- **Matplotlib** – Visualização gráfica
+- **Seaborn** – Visualização estatística avançada
+- **NumPy** – Processamento de dados numéricos (datas)
 
-Produtora (label)
+---
 
-🛠️ Tecnologias Utilizadas
-Python
+## 📊 Análises Realizadas
 
-Pandas – Manipulação de dados
+### 🎤 Top 10 Artistas Mais Frequentes
 
-Matplotlib – Geração de gráficos
+Mostra os artistas com maior número de músicas na playlist.
 
-Seaborn – Visualizações estatísticas com estilo aprimorado
+![Top 10 Artistas](imagens/top_artistas.png)
 
-NumPy – Manipulação de dados numéricos (datas)
+---
 
-📊 Análises Realizadas
-1. Top 10 Artistas Mais Frequentes
+### ⏱️ Distribuição da Duração das Músicas
 
-2. Distribuição de Duração das Músicas
+Visualiza como as músicas se distribuem em termos de duração.
 
-3. Número de Músicas por Ano
+![Duração das Músicas](imagens/duracao_musicas.png)
 
-4. Distribuição por Produtora
+---
 
-5. Gêneros Musicais Mais Presentes
+### 📅 Número de Músicas por Ano
 
-6. Idiomas das Músicas
+Evolução temporal da quantidade de lançamentos.
 
-📦 Como Executar
-Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Instale as dependências:
+![Músicas por Ano](imagens/musicas_por_ano.png)
 
-bash
-Copiar
-Editar
-pip install pandas matplotlib seaborn numpy
+---
 
+### 🏷️ Distribuição por Produtora (Labels)
 
-Execute os scripts Python para gerar os gráficos.
+Mostra a quantidade de músicas por gravadora/produtora.
 
-│   ├── generos.png
-│   └── idiomas.png
-└── README.md
+![Distribuição por Produtora](imagens/produtoras.png)
+
+---
+
+### 🎶 Gêneros Musicais Mais Presentes
+
+Visualização de distribuição por gênero musical.
+
+![Gêneros Musicais](imagens/generos.png)
+
+---
+
+### 🌍 Idiomas das Músicas
+
+Gráfico com os idiomas predominantes das faixas.
+
+![Idiomas das Músicas](imagens/idiomas.png)
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
