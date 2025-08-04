@@ -33,7 +33,6 @@ Este projeto realiza uma análise exploratória de uma playlist com mais de **50
 
 Mostra os artistas com maior número de músicas na playlist.
 
-![Top 10 Artistas](imagens/top_artistas.png)
 
 ---
 
@@ -41,7 +40,6 @@ Mostra os artistas com maior número de músicas na playlist.
 
 Visualiza como as músicas se distribuem em termos de duração.
 
-![Duração das Músicas](imagens/duracao_musicas.png)
 
 ---
 
@@ -49,7 +47,6 @@ Visualiza como as músicas se distribuem em termos de duração.
 
 Evolução temporal da quantidade de lançamentos.
 
-![Músicas por Ano](imagens/musicas_por_ano.png)
 
 ---
 
@@ -57,7 +54,6 @@ Evolução temporal da quantidade de lançamentos.
 
 Mostra a quantidade de músicas por gravadora/produtora.
 
-![Distribuição por Produtora](imagens/produtoras.png)
 
 ---
 
@@ -65,7 +61,6 @@ Mostra a quantidade de músicas por gravadora/produtora.
 
 Visualização de distribuição por gênero musical.
 
-![Gêneros Musicais](imagens/generos.png)
 
 ---
 
@@ -73,7 +68,6 @@ Visualização de distribuição por gênero musical.
 
 Gráfico com os idiomas predominantes das faixas.
 
-![Idiomas das Músicas](imagens/idiomas.png)
 
 ---
 
